@@ -1,0 +1,46 @@
+.login-cercivesi{
+    > * {
+        margin-top: 10px;
+    }
+}
+.basliq{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.popup{
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    top:0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+}
+.qeydiyyat{
+    //display: none;
+    border: 1px solid;
+    height: 300px;
+    width: 300px;
+    padding: 30px;
+    background-color: white;
+    position: relative;
+}
+#close{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.gizlet{
+    display: none;
+}
+
